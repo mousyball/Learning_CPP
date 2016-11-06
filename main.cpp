@@ -44,10 +44,11 @@ int main(int argc, char** argv)
     cout << "@ Task 4 "<< endl;
     vector<float> h_vec(3);
     h_vec = crossProduct(r_vec, v_vec);
-    cout << "Cross product of R_vec and V_vec: h_vec = " << h_vec[0] << " i + "
-		    											 << h_vec[1] << " j + "
-		    											 << h_vec[2] << " k"
-		    											 << endl << endl;
+    cout 	<< "Cross product of R_vec and V_vec: h_vec = " 
+			<< h_vec[0] << " i + "
+			<< h_vec[1] << " j + "
+		    << h_vec[2] << " k"
+		    << endl << endl;
 
    	// Task 5 : Calculate the semi-major axis a.
 	// ref : https://en.wikipedia.org/wiki/Semi-major_and_semi-minor_axes
@@ -64,10 +65,11 @@ int main(int argc, char** argv)
  	e_vec[0] = (temp_vec[0]/coef_u - r_vec[0]/r_mag);
  	e_vec[1] = (temp_vec[1]/coef_u - r_vec[1]/r_mag);
  	e_vec[2] = (temp_vec[2]/coef_u - r_vec[2]/r_mag);
- 	cout << "Eccentricity vector: e_vec = " << e_vec[0] << " i + "
-    										<< e_vec[1] << " j + "
-    										<< e_vec[2] << " k"
-    										<< endl << endl;
+ 	cout 	<< "Eccentricity vector: e_vec = " 
+			<< e_vec[0] << " i + "
+    		<< e_vec[1] << " j + "
+    		<< e_vec[2] << " k"
+    		<< endl << endl;
 
     // Task 7 : Calculate the orbit inclination
    	// ref : https://en.wikipedia.org/wiki/Orbital_inclination
@@ -84,10 +86,11 @@ int main(int argc, char** argv)
     vector<float> k_vec(k_arr, k_arr + 3);
     vector<float> n_vec(3);
     n_vec = crossProduct(k_vec, h_vec);
-    cout << "n_vec = " 	<< n_vec[0] << " i + "
-						<< n_vec[1] << " j + "
-						<< n_vec[2] << " k"
-						<< endl;
+    cout 	<< "n_vec = " 	
+			<< n_vec[0] << " i + "
+			<< n_vec[1] << " j + "
+			<< n_vec[2] << " k"
+			<< endl;
 
 	float n_mag = getMagnitude(n_vec);
 	if(n_vec[1] >= 0)	omega = acos(n_vec[0]/n_mag) * 180.0 / PI;
