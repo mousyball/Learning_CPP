@@ -1,29 +1,7 @@
-### Learning_CPP
-學C++寫的CODE就放這  
-> Reference : [C++](http://openhome.cc/Gossip/CppGossip/)  
+### Part 1  
 
-依照reference的章節，應該會寫幾個小題目上傳  
+綜合入門基礎、進階型態、函式的題目
 
-* 入門基礎  
-  * [Code] ...(TBD)  
-  
-* 進階型態  
-  * [Code] ...(TBD)  
+這是練習計算軌道動力學的題目，主要是練習上述三項內容的用法。
 
-* 函式  
-  * [Code] ...(TBD)  
-  
-* 物件基礎  
- * [Code] ...(TBD)   
-  
-* 物件導向  
- * [Code] ...(TBD)   
-  
-* 例外處理（Exception Handling)
- * [Code] ...(TBD)   
-  
-* 範本（Template）、名稱空間（Namespace）
- * [Code] ...(TBD)   
-  
-* 輸入/輸出
- * [Code] ...(TBD)  
+有一些typo在TASK的題目裡面，在wiki上可以查到正確的式子，也有寫參考連結在CODE裡面。
