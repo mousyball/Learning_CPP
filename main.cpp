@@ -46,7 +46,7 @@ int main(int argc, char** argv)
     h_vec = crossProduct(r_vec, v_vec);
     cout 	<< "Cross product of R_vec and V_vec: h_vec = " 
 			<< h_vec[0] << " i + "
-			<< h_vec[1] << " j + "
+		 	<< h_vec[1] << " j + "
 		    << h_vec[2] << " k"
 		    << endl << endl;
 
